@@ -10,6 +10,8 @@ public class Seagull : MonoBehaviour
     public Transform fish;
     public DogHandler dogHandler;
 
+    public PauseManager loseManager;
+
     public AudioClip scream, steal;
 
     public void Start()
@@ -31,6 +33,7 @@ public class Seagull : MonoBehaviour
             if (!dogHandler.isStinky)
             {
                 // you lose
+                loseManager.Lose();
             }
             yield break;
         }

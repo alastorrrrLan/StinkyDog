@@ -8,6 +8,8 @@ public class MenuManager : MonoBehaviour
     public string mainMenuName;
     public int currentLevelIndex;
 
+    public PauseManager winManager;
+
     public static MenuManager Instance;
 
     private void Awake()
@@ -49,6 +51,7 @@ public class MenuManager : MonoBehaviour
         }
         else
         {
+            winManager.Win();
             Debug.Log("No more levels to load, therefore win condition?");
         }
     }

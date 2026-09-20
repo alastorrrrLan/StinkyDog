@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -125,11 +138,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 380
-        width: 415
-        height: 441
+        y: 381
+        width: 414
+        height: 439
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,12 +159,12 @@ TextureImporter:
       name: title_1
       rect:
         serializedVersion: 2
-        x: 647
-        y: 711
-        width: 70
-        height: 77
+        x: 648
+        y: 712
+        width: 67
+        height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +181,12 @@ TextureImporter:
       name: title_2
       rect:
         serializedVersion: 2
-        x: 804
-        y: 574
-        width: 203
-        height: 177
+        x: 805
+        y: 575
+        width: 200
+        height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +203,12 @@ TextureImporter:
       name: title_3
       rect:
         serializedVersion: 2
-        x: 977
-        y: 541
-        width: 188
-        height: 219
+        x: 978
+        y: 542
+        width: 186
+        height: 217
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +225,12 @@ TextureImporter:
       name: title_4
       rect:
         serializedVersion: 2
-        x: 274
-        y: 186
-        width: 366
-        height: 513
+        x: 275
+        y: 187
+        width: 364
+        height: 511
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +247,12 @@ TextureImporter:
       name: title_5
       rect:
         serializedVersion: 2
-        x: 621
-        y: 527
-        width: 185
-        height: 179
+        x: 623
+        y: 528
+        width: 182
+        height: 177
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +269,12 @@ TextureImporter:
       name: title_6
       rect:
         serializedVersion: 2
-        x: 556
-        y: 314
-        width: 147
-        height: 128
+        x: 557
+        y: 315
+        width: 145
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +291,12 @@ TextureImporter:
       name: title_7
       rect:
         serializedVersion: 2
-        x: 706
-        y: 139
-        width: 574
-        height: 345
+        x: 707
+        y: 141
+        width: 573
+        height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,11 +309,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: title_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38be51541334c7942a03ce4ea9f72584
+      internalID: 288837910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ab5f110ef5c3244498bc58156c6deb4d
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +343,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       title_0: 4369572136041557648
       title_1: 3918735734063839423
@@ -318,6 +355,7 @@ TextureImporter:
       title_5: 8208922059937784112
       title_6: -4093714307795105667
       title_7: -2490043832354904171
+      title_8: 288837910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

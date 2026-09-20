@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class DogHandler : MonoBehaviour
 {
     public float speed, barkCooldown, maxStink, stinkProgress;
-    public bool isStinky, stinkyInProgress, canBark;
+    public bool isStinky, stinkyInProgress, canBark, barkAbility;
     public GameObject human, seagull, stink, bark;
     public Transform tail;
     public float wagSpeed, wagAngle;
@@ -49,7 +49,17 @@ public class DogHandler : MonoBehaviour
         if (movement != Vector2.zero)
         {
             float angle = Mathf.Atan2(movement.y, movement.x) * Mathf.Rad2Deg;
-            angle -= 90f; // Adjust for sprite orientation, might be a better way but idk
+            angle += 180f; // Adjust for sprite orientation, might be a better way but idk
+
+        if (angle > 90 && angle < 270)
+        {
+            GetComponent<SpriteRenderer>().flipY = true;
+        } 
+        else 
+        {
+            GetComponent<SpriteRenderer>().flipY = false;
+        }
+
             transform.rotation = Quaternion.Euler(0, 0, angle);
         }
 
@@ -127,7 +137,7 @@ public class DogHandler : MonoBehaviour
 
     public void Bark()
     {
-        if (!canBark)
+        if (!canBark || !barkAbility)
             return;
         canBark = false;
         human.GetComponent<Enemy>().MoveToSound(transform.position);
@@ -162,6 +172,11 @@ public class DogHandler : MonoBehaviour
             Debug.Log("You win!");
             MenuManager.Instance.LoadNextLevel();
         }
+        else if (collision.gameObject.CompareTag("Info"))
+        {
+            Debug.Log("in info!");
+            collision.GetComponent<InfoBox>().dogInside = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -169,6 +184,11 @@ public class DogHandler : MonoBehaviour
         if (collision.gameObject.CompareTag("Fish"))
         {
             stinkyInProgress = false;
+        }
+        else if (collision.gameObject.CompareTag("Info"))
+        {
+            Debug.Log("in info!");
+            collision.GetComponent<InfoBox>().dogInside = false;
         }
     }
 }

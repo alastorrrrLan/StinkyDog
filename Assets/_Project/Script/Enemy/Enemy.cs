@@ -1,5 +1,6 @@
 using UnityEngine;
 using Pathfinding;
+using System;
 
 // Autinatically add seeker
 [RequireComponent(typeof(Seeker))]
@@ -11,7 +12,7 @@ public class Enemy : MonoBehaviour
     [Header("Movement Settings")]
 
     // move speed
-    [SerializeField] private float moveSpeed = 2f;
+    public float moveSpeed = 2f;
     // arrival distance
     [SerializeField] private float waypointDistance = 0.1f;
 
@@ -91,6 +92,16 @@ public class Enemy : MonoBehaviour
         Vector2 moveDirection = targetPoint - transform.position;
         if (enemyFacing != null)
         {
+            float angle = Mathf.Atan2(moveDirection.x, moveDirection.y) * Mathf.Rad2Deg;
+            angle += 180f;
+            if (angle > 90f && angle < 270f)
+            {
+                GetComponent<SpriteRenderer>().flipY = true;
+            } 
+            else 
+            {
+                GetComponent<SpriteRenderer>().flipY = false;
+            }
             enemyFacing.SetFacingDirection(moveDirection);
         }
 

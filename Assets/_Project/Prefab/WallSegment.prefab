@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5907488791385764864}
   - component: {fileID: 6474978740633423699}
   - component: {fileID: 6823469597130833104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-left-top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.015715122}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 4.991626}
   m_EdgeRadius: 0
 --- !u!1 &2301546816762709565
 GameObject:
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 6031500176490063283}
   - component: {fileID: 5794679103699456687}
   - component: {fileID: 661803910293784397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00000047683716, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -274,7 +274,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 21.055782, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &4900056549517058940
 GameObject:
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 936810166366946606}
   - component: {fileID: 4862341004753456113}
   - component: {fileID: 4726187582886185017}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-left-bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.049745798}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -412,7 +412,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 4.980347}
   m_EdgeRadius: 0
 --- !u!1 &5358892929511479571
 GameObject:
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 479149051955268481}
   - component: {fileID: 1353254718133194869}
   - component: {fileID: 4061609258922141395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-right-top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.00000023841858}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -550,7 +550,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 4.978005}
   m_EdgeRadius: 0
 --- !u!1 &7243242499128777515
 GameObject:
@@ -561,7 +561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8960727558597279102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WallSegment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 8396332257620821978}
   - component: {fileID: 6122619679528631178}
   - component: {fileID: 1142896988472065719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,7 +715,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.091982365, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -725,7 +725,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 20.908249, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &7981806672183886460
 GameObject:
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 8186338448701614819}
   - component: {fileID: 7777478681890948676}
   - component: {fileID: 3369978231957375505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall-right-bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,7 +853,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.041437626}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -863,5 +863,5 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 4.895131}
   m_EdgeRadius: 0

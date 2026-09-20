@@ -30,6 +30,8 @@ public class EnemyVision : MonoBehaviour
     private VisionZone currentZone = VisionZone.None;
     private Vector2 currentPlayerPos;
 
+    private float originalMoveSpeed;
+
     public VisionZone CurrentZone
     {
         get
@@ -46,6 +48,11 @@ public class EnemyVision : MonoBehaviour
         {
             return canSeePlayer;
         }
+    }
+
+    private void Start()
+    {
+        originalMoveSpeed = enemy.moveSpeed;
     }
 
     // Update is called once per frame
@@ -109,10 +116,12 @@ public class EnemyVision : MonoBehaviour
         {
             case VisionZone.None:
             if (warningBorder != null) warningBorder.SetActive(false);
+            enemy.moveSpeed = originalMoveSpeed;
             break;
             case VisionZone.Far:
             if (enemy != null) enemy.MoveToPos(currentPlayerPos);
             if (warningBorder != null) warningBorder.SetActive(true);
+            enemy.moveSpeed = originalMoveSpeed * 2;
             break;
             case VisionZone.Near:
             if (warningBorder != null) warningBorder.SetActive(true);

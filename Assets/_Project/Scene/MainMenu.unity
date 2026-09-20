@@ -384,7 +384,7 @@ MonoBehaviour:
   creditsButton: {fileID: 966986456}
   exitButton: {fileID: 1349127656}
   fadeDuration: 0.6
-  nextSceneName: JohanTest
+  nextSceneName: level1
 --- !u!114 &340158236
 MonoBehaviour:
   m_ObjectHideFlags: 0

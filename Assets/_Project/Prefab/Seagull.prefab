@@ -111,7 +111,9 @@ MonoBehaviour:
   barkSensitivity: 2
   fishVisual: {fileID: 7056149422230683802}
   fish: {fileID: 0}
-  scream: {fileID: 8300000, guid: 68f4ad590c8e71843ba827fe4863fa1e, type: 3}
+  dogHandler: {fileID: 0}
+  loseManager: {fileID: 0}
+  scream: {fileID: 8300000, guid: fac6cd06319ab1e4ebc540b6c9684be7, type: 3}
   steal: {fileID: 8300000, guid: d9724206b2443f9409cc9eb9bc49e2e6, type: 3}
 --- !u!1 &7056149422230683802
 GameObject:

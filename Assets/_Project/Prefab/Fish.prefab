@@ -132,8 +132,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: 0.026480198, y: 0}
+  m_Radius: 6.4580874
 --- !u!114 &6490753116141984199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2541595303327328845, guid: 3df64df70ca97a449a7fcc37c23f3952, type: 3}
+  m_Sprite: {fileID: 8966945178157639174, guid: 2f38dba816ba24ac78c8f69a9cf1b94f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -320,7 +320,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2541595303327328845, guid: 3df64df70ca97a449a7fcc37c23f3952, type: 3}
+  m_Sprite: {fileID: 8966945178157639174, guid: 2f38dba816ba24ac78c8f69a9cf1b94f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -358,7 +358,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.236, y: -0.164, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1099658268182504354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -411,7 +411,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2541595303327328845, guid: 3df64df70ca97a449a7fcc37c23f3952, type: 3}
+  m_Sprite: {fileID: 8966945178157639174, guid: 2f38dba816ba24ac78c8f69a9cf1b94f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -502,7 +502,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2541595303327328845, guid: 3df64df70ca97a449a7fcc37c23f3952, type: 3}
+  m_Sprite: {fileID: 8966945178157639174, guid: 2f38dba816ba24ac78c8f69a9cf1b94f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -593,7 +593,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2541595303327328845, guid: 3df64df70ca97a449a7fcc37c23f3952, type: 3}
+  m_Sprite: {fileID: 8966945178157639174, guid: 2f38dba816ba24ac78c8f69a9cf1b94f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

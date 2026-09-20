@@ -21,7 +21,7 @@ public class Seagull : MonoBehaviour
 
     public Vector2 GetStartPos()
     {
-        return new Vector3(Random.Range(-8f, 8f), 6f, 0f);
+        return new Vector3(Random.Range(-8f, 8f), 10f, 0f);
     }
 
     private IEnumerator StartTimer()

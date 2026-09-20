@@ -47,7 +47,7 @@ public class MenuManager : MonoBehaviour
     {
         if (currentLevelIndex < levelNames.Count)
         {
-            LoadLevel(currentLevelIndex++);
+            LoadLevel(currentLevelIndex+1);
         }
         else
         {

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4557809385003756551}
   - component: {fileID: 5246468127646567070}
   - component: {fileID: 3064915792937464558}
+  - component: {fileID: 3096430555222600554}
   m_Layer: 0
   m_Name: Seagull
   m_TagString: Untagged
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9099279430733234255, guid: 2659dedddd96107498c08de4418374da, type: 3}
+  m_Sprite: {fileID: -5020514758781672274, guid: bae869be84f9e437da6f6edf71c88b22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -115,6 +116,28 @@ MonoBehaviour:
   loseManager: {fileID: 0}
   scream: {fileID: 8300000, guid: fac6cd06319ab1e4ebc540b6c9684be7, type: 3}
   steal: {fileID: 8300000, guid: d9724206b2443f9409cc9eb9bc49e2e6, type: 3}
+--- !u!95 &3096430555222600554
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6934819704832055135}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c71bfe59bb83e4cd5bb7a35c6b6eb253, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7056149422230683802
 GameObject:
   m_ObjectHideFlags: 0

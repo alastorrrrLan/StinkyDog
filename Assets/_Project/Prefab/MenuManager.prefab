@@ -44,6 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10356e4093709bf49b683028359619b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuManager
-  levelNames: []
-  mainMenuName: 
+  levelNames:
+  - level1
+  - level2
+  - level3
+  mainMenuName: MainMenu
   currentLevelIndex: 0
+  winManager: {fileID: 0}

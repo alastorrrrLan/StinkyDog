@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 561619dfbc8308048a2ba67ce09b1ccb
+guid: 831d37a0280484d488c0bef6e968f756
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5435432148796896179
-    second: dogagain_0
+      213: -1796165456659167862
+    second: stinkparticle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dogagain_0
+      name: stinkparticle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 58
-        height: 94
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b3f6cdbdb88e6b40800000000000000
-      internalID: 5435432148796896179
+      spriteID: a85c00e980db217e0800000000000000
+      internalID: -1796165456659167862
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dogagain_0: 5435432148796896179
+      stinkparticle_0: -1796165456659167862
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

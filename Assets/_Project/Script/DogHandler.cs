@@ -130,7 +130,7 @@ public class DogHandler : MonoBehaviour
         if (!canBark)
             return;
         canBark = false;
-        // human.GetComponent<Enemy>().moveToSound(transform.position); (Uncomment)
+        human.GetComponent<Enemy>().MoveToSound(transform.position);
 
         seagull.GetComponent<Seagull>().ReactToBark(transform.position);
 

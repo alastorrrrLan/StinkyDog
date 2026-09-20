@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 831d37a0280484d488c0bef6e968f756
+guid: 084278546b295e741bdc5a538ea749d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1796165456659167862
-    second: stinkparticle_0
+      213: -1192314979447850735
+    second: bark_0
+  - first:
+      213: -1407267007170532661
+    second: bark_1
+  - first:
+      213: 2671554588998208710
+    second: bark_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,27 +102,84 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stinkparticle_0
+      name: bark_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 18
+        width: 62
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a85c00e980db217e0800000000000000
-      internalID: -1796165456659167862
+      spriteID: 11932a5e7db047fe0800000000000000
+      internalID: -1192314979447850735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bark_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca297dec12687ce0800000000000000
+      internalID: -1407267007170532661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bark_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc8d438eb4431520800000000000000
+      internalID: 2671554588998208710
       vertices: []
       indices: 
       edges: []
@@ -125,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a37dac6c593051b4b9a896b9577e39a4
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stinkparticle_0: -1796165456659167862
+      bark_0: -1192314979447850735
+      bark_1: -1407267007170532661
+      bark_2: 2671554588998208710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

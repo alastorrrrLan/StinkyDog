@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2659dedddd96107498c08de4418374da
+guid: 561619dfbc8308048a2ba67ce09b1ccb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9099279430733234255
-    second: Seagullagain_0
+      213: 5435432148796896179
+    second: dogagain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seagullagain_0
+      name: dogagain_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 72
+        width: 58
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bf702b519dd8b180800000000000000
-      internalID: -9099279430733234255
+      spriteID: 3b3f6cdbdb88e6b40800000000000000
+      internalID: 5435432148796896179
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Seagullagain_0: -9099279430733234255
+      dogagain_0: 5435432148796896179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

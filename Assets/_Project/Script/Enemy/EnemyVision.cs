@@ -117,10 +117,10 @@ public class EnemyVision : MonoBehaviour
             case VisionZone.Near:
             if (warningBorder != null) warningBorder.SetActive(true);
             // TODO: gameover
-            if (GameManager.instance != null)
-            {
-                GameManager.instance.GameOver();
-            }
+            // if (GameManager.instance != null)
+            // {
+            //     GameManager.instance.GameOver();
+            // }
             break;
         }
 

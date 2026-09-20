@@ -315,6 +315,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   warningBorder: {fileID: 0}
+  anger: {fileID: 8300000, guid: 38c4400efd6f44600a57ab4447542406, type: 3}
 --- !u!95 &5878219783728401636
 Animator:
   serializedVersion: 7

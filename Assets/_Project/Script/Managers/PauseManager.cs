@@ -9,6 +9,13 @@ public class PauseManager : MonoBehaviour
     public GameObject winPanel;
     bool isPaused = false;
 
+    public static PauseManager Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

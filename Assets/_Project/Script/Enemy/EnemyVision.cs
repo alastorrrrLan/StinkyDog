@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 public enum VisionZone
 {
     None,
@@ -31,6 +33,9 @@ public class EnemyVision : MonoBehaviour
     private Vector2 currentPlayerPos;
 
     private float originalMoveSpeed;
+    public AudioClip anger;
+    private bool canBeAngry;
+    private float timer = 1;
 
     public VisionZone CurrentZone
     {
@@ -53,6 +58,7 @@ public class EnemyVision : MonoBehaviour
     private void Start()
     {
         originalMoveSpeed = enemy.moveSpeed;
+        canBeAngry = true;
     }
 
     // Update is called once per frame
@@ -122,16 +128,26 @@ public class EnemyVision : MonoBehaviour
             if (enemy != null) enemy.MoveToPos(currentPlayerPos);
             if (warningBorder != null) warningBorder.SetActive(true);
             enemy.moveSpeed = originalMoveSpeed * 2;
+            if (canBeAngry)
+            {
+                canBeAngry = false;
+                StartCoroutine(CoolDown());
+                SoundManager.Instance.PlayRandomPitch(anger);
+            }
             break;
             case VisionZone.Near:
             if (warningBorder != null) warningBorder.SetActive(true);
-            // TODO: gameover
-            // if (GameManager.instance != null)
-            // {
-            //     GameManager.instance.GameOver();
-            // }
+            if (PauseManager.Instance != null)
+            {
+                PauseManager.Instance.Lose();
+            }
             break;
         }
+    }
 
+    private IEnumerator CoolDown()
+    {
+        yield return new WaitForSeconds(timer);
+        canBeAngry = true;
     }
 }

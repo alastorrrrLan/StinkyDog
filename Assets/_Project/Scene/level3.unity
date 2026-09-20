@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43915115}
   - component: {fileID: 43915116}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shop4_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,11 +327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6490753116141984199, guid: e817d95bb9996364591d0dd72d630190, type: 3}
       propertyPath: maxFishCount
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6490753116141984199, guid: e817d95bb9996364591d0dd72d630190, type: 3}
       propertyPath: currentFishCount
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7477150402218943275, guid: e817d95bb9996364591d0dd72d630190, type: 3}
       propertyPath: m_LocalPosition.x
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 82540977}
   - component: {fileID: 82540979}
   - component: {fileID: 82540978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,6 +498,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2037146219787128351, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037146219787128351, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -436
+      objectReference: {fileID: 0}
     - target: {fileID: 5913937323888942388, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -582,6 +590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameStatePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 8966207293268753341, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -609,7 +621,7 @@ GameObject:
   - component: {fileID: 265576793}
   - component: {fileID: 265576795}
   - component: {fileID: 265576794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,7 +865,7 @@ GameObject:
   - component: {fileID: 402240718}
   - component: {fileID: 402240720}
   - component: {fileID: 402240719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1153,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.017710915, g: 0.018160857, b: 0.01886791, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1166,7 +1178,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 7.5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1191,7 +1203,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.14, y: 2.34, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1335,7 +1347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8746276039737945578, guid: 74a1a3cdbc7912542b6729ffd0b12fab, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1346,6 +1358,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6402204925497021521, guid: 74a1a3cdbc7912542b6729ffd0b12fab, type: 3}
   m_PrefabInstance: {fileID: 649840630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &657007520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8610251931261389387, guid: 6d2a176b4729d445db8d86a9ea3ccd8a, type: 3}
+  m_PrefabInstance: {fileID: 283953910}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &663129646
 GameObject:
@@ -1358,7 +1375,7 @@ GameObject:
   - component: {fileID: 663129647}
   - component: {fileID: 663129649}
   - component: {fileID: 663129648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,7 +1513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672731979}
   - component: {fileID: 672731980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shop1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,7 +1604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 690019014}
   - component: {fileID: 690019015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shop-L_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1690,11 +1707,11 @@ PrefabInstance:
       objectReference: {fileID: 215822174}
     - target: {fileID: 4557809385003756551, guid: 650318405f07d334bb70adfaec9ed70b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.6
+      value: -6.09
       objectReference: {fileID: 0}
     - target: {fileID: 4557809385003756551, guid: 650318405f07d334bb70adfaec9ed70b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.29
+      value: 12.66
       objectReference: {fileID: 0}
     - target: {fileID: 4557809385003756551, guid: 650318405f07d334bb70adfaec9ed70b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1742,6 +1759,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4557809385003756551, guid: 650318405f07d334bb70adfaec9ed70b, type: 3}
   m_PrefabInstance: {fileID: 866305064}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &898371611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6934819704832055135, guid: 650318405f07d334bb70adfaec9ed70b, type: 3}
+  m_PrefabInstance: {fileID: 866305064}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070938911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1754,7 +1776,7 @@ GameObject:
   - component: {fileID: 1070938915}
   - component: {fileID: 1070938914}
   - component: {fileID: 1070938913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,6 +1985,10 @@ PrefabInstance:
     - target: {fileID: 1353254718133194869, guid: 9473124c6470e4029bc63c12c5c6765a, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191796279128430587, guid: 9473124c6470e4029bc63c12c5c6765a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4862341004753456113, guid: 9473124c6470e4029bc63c12c5c6765a, type: 3}
       propertyPath: m_SortingOrder
@@ -2181,9 +2207,17 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 9df381706955049ffa6ae3ba41c38758, type: 3}
+    - target: {fileID: 1154238103478087708, guid: c3b0e0d3b333fa4498be7dc6960e85a7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1449381409032332807, guid: c3b0e0d3b333fa4498be7dc6960e85a7, type: 3}
       propertyPath: m_Text
       value: You can also find a restaurant and bar as well as fishy street foods.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169967631835667322, guid: c3b0e0d3b333fa4498be7dc6960e85a7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2178540639192869759, guid: c3b0e0d3b333fa4498be7dc6960e85a7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2563,6 +2597,14 @@ PrefabInstance:
       value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 2316455034854098777, guid: 07e3d304dce76e64da99efdd4822c2e3, type: 3}
+      propertyPath: human
+      value: 
+      objectReference: {fileID: 657007520}
+    - target: {fileID: 2316455034854098777, guid: 07e3d304dce76e64da99efdd4822c2e3, type: 3}
+      propertyPath: seagull
+      value: 
+      objectReference: {fileID: 898371611}
+    - target: {fileID: 2316455034854098777, guid: 07e3d304dce76e64da99efdd4822c2e3, type: 3}
       propertyPath: barkAbility
       value: 1
       objectReference: {fileID: 0}
@@ -2699,7 +2741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813803406}
   - component: {fileID: 1813803407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shop3_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3021,7 +3063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105741968}
   - component: {fileID: 2105741969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shop5_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

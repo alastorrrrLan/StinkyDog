@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4127440808523663599, guid: 4dbbaa50b6ec94546b7fa0260912e7c4, type: 3}
+      propertyPath: winManager
+      value: 
+      objectReference: {fileID: 805021312}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -647,8 +651,8 @@ Camera:
   m_GameObject: {fileID: 562927805}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -673,7 +677,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -698,7 +702,7 @@ Transform:
   m_GameObject: {fileID: 562927805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.2, y: 1.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -961,11 +965,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameStatePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 8966207293268753341, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+--- !u!114 &805021312 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2845895644189283329, guid: 4a72b5044a7f54c59b907421fefc1aad, type: 3}
+  m_PrefabInstance: {fileID: 805021311}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56fd23076df55c84aaaad3988b803474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &977663461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2300,8 +2319,8 @@ SceneRoots:
   - {fileID: 1603734424}
   - {fileID: 732337008}
   - {fileID: 1364239655}
+  - {fileID: 494403364}
   - {fileID: 1945954979}
   - {fileID: 1083240684}
   - {fileID: 63827590}
-  - {fileID: 494403364}
   - {fileID: 1726385617}

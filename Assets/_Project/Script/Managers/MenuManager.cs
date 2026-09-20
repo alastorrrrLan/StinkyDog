@@ -19,7 +19,6 @@ public class MenuManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        DontDestroyOnLoad(this.gameObject);
     }
 
     public void LoadLevel(int level)
@@ -45,7 +44,7 @@ public class MenuManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        if (currentLevelIndex < levelNames.Count)
+        if (currentLevelIndex < levelNames.Count-1)
         {
             LoadLevel(currentLevelIndex+1);
         }
